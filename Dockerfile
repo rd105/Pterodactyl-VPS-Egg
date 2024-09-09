@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM debian:bullseye-slim
 
 # Set noninteractive mode
 ENV DEBIAN_FRONTEND=noninteractive
